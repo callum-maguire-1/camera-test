@@ -6,6 +6,6 @@ export const WebcamComponent = () => {
 
 
 
-    return error ? <div> no camera </div> : <Webcam onUserMediaError={(error) => { setError(true); console.log(error)}} />
+    return error ? <div> no camera </div> : <Webcam data-cy="webcam" onUserMediaError={(error) => { setError(true); console.log(error)}} />
 
 };

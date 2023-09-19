@@ -10,7 +10,8 @@ describe('template spec', () => {
       cy.window().then((win) => {
         win.location.href = url;
       });
-      cy.reload();
+
+      cy.get('[data-cy="camera"]')
     });
   })
 })
