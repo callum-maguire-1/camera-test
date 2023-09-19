@@ -12,7 +12,7 @@ function App() {
         data-cy="camera-link"
         rel="noopener noreferrer"
       >
-        Learn React
+        link to application B
       </a>
 
       <WebcamComponent></WebcamComponent>
